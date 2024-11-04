@@ -1,0 +1,208 @@
+[
+    {
+        "product_id": "101",
+        "product_title": "Dell XPS 13",
+        "product_image": "https://example.com/images/dell-xps-13.jpg",
+        "category": "Laptop",
+        "price": 999,
+        "description": "Dell's high-end ultraportable laptop with stunning display and solid performance.",
+        "specifications": [
+            "13.4-inch FHD+ display",
+            "256GB SSD",
+            "8GB RAM",
+            "Intel Core i5"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "Dell",
+        "warranty": "1 year"
+    },
+    {
+        "product_id": "102",
+        "product_title": "HP Spectre x360",
+        "product_image": "https://example.com/images/hp-spectre-x360.jpg",
+        "category": "Laptop",
+        "price": 1150,
+        "description": "HP's premium convertible laptop with excellent design and performance.",
+        "specifications": [
+            "13.3-inch 4K UHD display",
+            "512GB SSD",
+            "16GB RAM",
+            "Intel Core i7"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "brand": "HP",
+        "warranty": "1 year"
+    },
+    {
+        "product_id": "103",
+        "product_title": "Samsung Galaxy S21",
+        "product_image": "https://example.com/images/galaxy-s21.jpg",
+        "category": "Phones",
+        "price": 799,
+        "description": "Samsung's flagship phone with excellent camera and performance.",
+        "specifications": [
+            "6.2-inch AMOLED display",
+            "128GB storage",
+            "64MP camera"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "Samsung",
+        "warranty": "1 year"
+    },
+    {
+        "product_id": "104",
+        "product_title": "OnePlus 9",
+        "product_image": "https://example.com/images/oneplus-9.jpg",
+        "category": "Phones",
+        "price": 729,
+        "description": "High-end smartphone with fast performance and clean software experience.",
+        "specifications": [
+            "6.55-inch AMOLED display",
+            "128GB storage",
+            "48MP camera"
+        ],
+        "availability": true,
+        "rating": 4.4,
+        "brand": "OnePlus",
+        "warranty": "1 year"
+    },
+    {
+        "product_id": "105",
+        "product_title": "Ray-Ban Wayfarer",
+        "product_image": "https://example.com/images/rayban-wayfarer.jpg",
+        "category": "Accessories",
+        "price": 150,
+        "description": "Classic Ray-Ban Wayfarer sunglasses with 100% UV protection.",
+        "specifications": [
+            "100% UV protection",
+            "Acetate frame",
+            "G-15 lenses"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "brand": "Ray-Ban",
+        "material": "Plastic"
+    },
+    {
+        "product_id": "106",
+        "product_title": "Fossil Leather Wallet",
+        "product_image": "https://example.com/images/fossil-wallet.jpg",
+        "category": "Accessories",
+        "price": 70,
+        "description": "Premium Fossil leather wallet with multiple compartments.",
+        "specifications": [
+            "8 card slots",
+            "ID window",
+            "Genuine leather"
+        ],
+        "availability": true,
+        "rating": 4.3,
+        "brand": "Fossil",
+        "material": "Leather"
+    },
+    {
+        "product_id": "107",
+        "product_title": "Apple Watch Series 7",
+        "product_image": "https://example.com/images/apple-watch-series7.jpg",
+        "category": "Smartwatches",
+        "price": 399,
+        "description": "Apple's advanced smartwatch with fitness tracking and heart rate monitoring.",
+        "specifications": [
+            "45mm display",
+            "GPS",
+            "Water-resistant"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "brand": "Apple",
+        "warranty": "1 year"
+    },
+    {
+        "product_id": "108",
+        "product_title": "Samsung Galaxy Watch 4",
+        "product_image": "https://example.com/images/galaxy-watch4.jpg",
+        "category": "Smartwatches",
+        "price": 249,
+        "description": "Samsung's feature-rich smartwatch with fitness and health monitoring.",
+        "specifications": [
+            "40mm display",
+            "GPS",
+            "Heart rate monitor"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "Samsung",
+        "warranty": "1 year"
+    },
+    {
+        "product_id": "109",
+        "product_title": "MacBook Pro 14-inch",
+        "product_image": "https://example.com/images/macbook-pro-14.jpg",
+        "category": "Macbook",
+        "price": 1999,
+        "description": "Powerful laptop with Apple's M1 Pro chip, great for professional work.",
+        "specifications": [
+            "14-inch Liquid Retina display",
+            "512GB SSD",
+            "16GB RAM"
+        ],
+        "availability": true,
+        "rating": 4.9,
+        "brand": "Apple",
+        "warranty": "1 year"
+    },
+    {
+        "product_id": "110",
+        "product_title": "MacBook Air M1",
+        "product_image": "https://example.com/images/macbook-air-m1.jpg",
+        "category": "Macbook",
+        "price": 999,
+        "description": "Lightweight MacBook with Apple's M1 chip, ideal for everyday tasks.",
+        "specifications": [
+            "13.3-inch Retina display",
+            "256GB SSD",
+            "8GB RAM"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "Apple",
+        "warranty": "1 year"
+    },
+    {
+        "product_id": "111",
+        "product_title": "iPhone 13",
+        "product_image": "https://example.com/images/iphone-13.jpg",
+        "category": "iPhone",
+        "price": 799,
+        "description": "Latest iPhone model with excellent performance and camera quality.",
+        "specifications": [
+            "6.1-inch display",
+            "128GB storage",
+            "Dual-camera system"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "brand": "Apple",
+        "warranty": "1 year"
+    },
+    {
+        "product_id": "112",
+        "product_title": "iPhone SE (2022)",
+        "product_image": "https://example.com/images/iphone-se-2022.jpg",
+        "category": "iPhone",
+        "price": 429,
+        "description": "Compact iPhone with powerful A15 chip at an affordable price.",
+        "specifications": [
+            "4.7-inch display",
+            "64GB storage",
+            "12MP camera"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "Apple",
+        "warranty": "1 year"
+    }
+]
