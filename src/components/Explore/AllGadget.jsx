@@ -3,12 +3,13 @@ import { NavLink } from 'react-router-dom';
 const AllGadget = ({ categories }) => {
 
     return (
-        <div role="tablist" className="flex flex-col w-1/5 tabs-lifted">
-            <NavLink to="/" role="tab" className="tab tab-active"><h1>All Product</h1></NavLink>
+        <div role="tablist" className="flex flex-col rounded-2xl p-5 w-auto tabs-lifted gap-3 border h-[450px] border-gray-200">
+            <NavLink to="/" role="button" className="btn rounded-full"><h1>All Product</h1></NavLink>
 
             {
                 categories.map(category => (
-                    <NavLink key={category.id} to={`/category/${category.category}`} role="tab" className="tab tab-active"><h1>{category.category}</h1></NavLink>
+                    <NavLink key={category.id} to={`/category/${category.category}`}
+                        role="button" className="btn rounded-full"><h1>{category.category}</h1></NavLink>
                 ))
             }
 
@@ -17,3 +18,4 @@ const AllGadget = ({ categories }) => {
 };
 
 export default AllGadget;
+

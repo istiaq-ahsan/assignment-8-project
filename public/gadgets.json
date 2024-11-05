@@ -2,7 +2,7 @@
     {
         "product_id": "101",
         "product_title": "Dell XPS 13",
-        "product_image": "https://example.com/images/dell-xps-13.jpg",
+        "product_image": "https://i.ibb.co.com/YdRR5TB/Dell-XPS-13-Plus-Laptop.jpg",
         "category": "Laptop",
         "price": 999,
         "description": "Dell's high-end ultraportable laptop with stunning display and solid performance.",
@@ -20,7 +20,7 @@
     {
         "product_id": "102",
         "product_title": "HP Spectre x360",
-        "product_image": "https://example.com/images/hp-spectre-x360.jpg",
+        "product_image": "https://i.ibb.co.com/qW9wdTQ/c178087602aba862e587ff536d7e375d.jpg",
         "category": "Laptop",
         "price": 1150,
         "description": "HP's premium convertible laptop with excellent design and performance.",
@@ -38,7 +38,7 @@
     {
         "product_id": "103",
         "product_title": "Samsung Galaxy S21",
-        "product_image": "https://example.com/images/galaxy-s21.jpg",
+        "product_image": "https://i.ibb.co.com/R4GRN1X/download.jpg",
         "category": "Phones",
         "price": 799,
         "description": "Samsung's flagship phone with excellent camera and performance.",
@@ -55,7 +55,7 @@
     {
         "product_id": "104",
         "product_title": "OnePlus 9",
-        "product_image": "https://example.com/images/oneplus-9.jpg",
+        "product_image": "https://i.ibb.co.com/WpyX9Yr/One-Plus-Mobile-phone-Latest-One-Plus-smartphone.jpg",
         "category": "Phones",
         "price": 729,
         "description": "High-end smartphone with fast performance and clean software experience.",
@@ -72,7 +72,7 @@
     {
         "product_id": "105",
         "product_title": "Ray-Ban Wayfarer",
-        "product_image": "https://example.com/images/rayban-wayfarer.jpg",
+        "product_image": "https://i.ibb.co.com/LQSGWWh/Ray-Ban-Mega-Wayfarer-Sunglasses.jpg",
         "category": "Accessories",
         "price": 150,
         "description": "Classic Ray-Ban Wayfarer sunglasses with 100% UV protection.",
@@ -89,7 +89,7 @@
     {
         "product_id": "106",
         "product_title": "Fossil Leather Wallet",
-        "product_image": "https://example.com/images/fossil-wallet.jpg",
+        "product_image": "https://i.ibb.co.com/4p3xnJW/4-39-US-Fossil-Wallet-Men-men-s-Pu-Leather-Long-Wallet-Large-Capacity-Zippered-Coach-Dempsey-Clutch.jpg",
         "category": "Accessories",
         "price": 70,
         "description": "Premium Fossil leather wallet with multiple compartments.",
@@ -106,7 +106,7 @@
     {
         "product_id": "107",
         "product_title": "Apple Watch Series 7",
-        "product_image": "https://example.com/images/apple-watch-series7.jpg",
+        "product_image": "https://i.ibb.co.com/6mRJbF1/Apple-Watch-Series-7-GPS-Cellular-45mm-Smart-Watch-w-Silver-Stainless-Steel-Case-with-Starlight-Spor.jpg",
         "category": "Smartwatches",
         "price": 399,
         "description": "Apple's advanced smartwatch with fitness tracking and heart rate monitoring.",
@@ -123,7 +123,7 @@
     {
         "product_id": "108",
         "product_title": "Samsung Galaxy Watch 4",
-        "product_image": "https://example.com/images/galaxy-watch4.jpg",
+        "product_image": "https://i.ibb.co.com/F887RRF/20mm-watch-band-for-Samsung-Galaxy-Watch-7-4-44mm-40mm-Sport-Silicone-Bracelet-Galaxy-Watch-6.jpg",
         "category": "Smartwatches",
         "price": 249,
         "description": "Samsung's feature-rich smartwatch with fitness and health monitoring.",
@@ -140,7 +140,7 @@
     {
         "product_id": "109",
         "product_title": "MacBook Pro 14-inch",
-        "product_image": "https://example.com/images/macbook-pro-14.jpg",
+        "product_image": "https://i.ibb.co.com/Fgr3Jz8/Refurbished-14-inch-Mac-Book-Pro-Apple-M3-Max-Chip-with-14-Core-CPU-and-30-Core-GPU-Silver.jpg",
         "category": "Macbook",
         "price": 1999,
         "description": "Powerful laptop with Apple's M1 Pro chip, great for professional work.",
@@ -157,7 +157,7 @@
     {
         "product_id": "110",
         "product_title": "MacBook Air M1",
-        "product_image": "https://example.com/images/macbook-air-m1.jpg",
+        "product_image": "https://i.ibb.co.com/r0gwwvS/MACBOOK-Air-13-2020-M1-8-Go-RAM-256-Go-SSD-Gris-Ordinateur-Apple.jpg",
         "category": "Macbook",
         "price": 999,
         "description": "Lightweight MacBook with Apple's M1 chip, ideal for everyday tasks.",
@@ -174,7 +174,7 @@
     {
         "product_id": "111",
         "product_title": "iPhone 13",
-        "product_image": "https://example.com/images/iphone-13.jpg",
+        "product_image": "https://i.ibb.co.com/8zCsXCK/download-1.jpg",
         "category": "iPhone",
         "price": 799,
         "description": "Latest iPhone model with excellent performance and camera quality.",
@@ -191,7 +191,7 @@
     {
         "product_id": "112",
         "product_title": "iPhone SE (2022)",
-        "product_image": "https://example.com/images/iphone-se-2022.jpg",
+        "product_image": "https://i.ibb.co.com/z7XctXP/Apple-Insider-Reveals-i-Phone-SE-2022-Keynote-Date.jpg",
         "category": "iPhone",
         "price": 429,
         "description": "Compact iPhone with powerful A15 chip at an affordable price.",

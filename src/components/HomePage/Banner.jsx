@@ -7,7 +7,10 @@ const Banner = () => {
                 <Heading title={"Upgrade Your Tech Accessories with Gadget Heaven Accessories"}
                     description={"Explore the latest gadgets that will take your experience next level.From smart devices to the coolest accessories,we have it all!"}
                 ></Heading>
-            </div >
+                <div className="text-center">
+                    <button className="btn btn-actions bg-white text-blue-700 rounded-3xl px-8 mt-8">Shop Now</button>
+                </div>            </div >
+
             <div className="w-[60%] max-w-3xl mx-auto border rounded-2xl
              border-white bg-transparent z-10 -mt-36">
                 <div className="p-3">

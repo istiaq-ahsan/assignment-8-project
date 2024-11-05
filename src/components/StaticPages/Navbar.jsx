@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div className="mt-10 container mx-auto navbar bg-base-100">
+        <div className="mt-5 container mx-auto navbar bg-base-100">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -27,17 +27,17 @@ const Navbar = () => {
                         <NavLink to="/dashboard">Dashboard</NavLink>
                     </ul>
                 </div>
-                <a className="text-xl font-bold">Gadget Heaven</a>
+                <a className="text-2xl font-bold">Gadget Heaven</a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 gap-8">
+                <ul className="menu text-base menu-horizontal px-1 gap-8">
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/statistics">Statistics</NavLink>
                     <NavLink to="/dashboard">Dashboard</NavLink>
                 </ul>
             </div>
             <div className="navbar-end gap-3">
-                <button className="btn rounded-full"><i className="fa-solid fa-cart-shopping"></i></button>
+                <button className="btn rounded-full"><i className="fa-solid fa-cart-shopping"></i></button><span className="-mt-10 -ml-5"><sup className="font-extrabold">1</sup></span>
                 <button className="btn rounded-full"><i className="fa-regular fa-heart"></i></button>
             </div>
         </div>

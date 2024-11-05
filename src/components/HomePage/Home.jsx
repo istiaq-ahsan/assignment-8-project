@@ -9,7 +9,8 @@ const Home = () => {
     return (
         <div className="mb-10">
             <Banner></Banner>
-            <div className="flex gap-5">
+            <h1 className="text-3xl font-bold text-center my-10">Explore Cutting-Edge Gadgets</h1>
+            <div className="container mx-auto flex gap-5 justify-center">
                 <AllGadget categories={categories}></AllGadget>
                 <div>
                     <Outlet></Outlet>
