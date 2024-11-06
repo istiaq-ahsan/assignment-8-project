@@ -15,9 +15,9 @@ const ListedWishes = ({ wish, handleDeleteWish, handleAddToCart, handleIncreaseP
                             <h4 className='text-base'>{wish.description}</h4>
                             <h2 className="text-lg font-medium">Price: $ {wish.price}</h2>
                             <button onClick={() => {
-                                handleDeleteWish(wish.product_id)
-                                handleAddToCart(wish.product_id)
-                                handleIncreasePrice(wish.price)
+                                handleDeleteWish(wish.product_id);
+                                handleAddToCart(wish.product_id);
+                                handleIncreasePrice(wish.price);
                             }} className="btn btn-secondary rounded-full my-5">Add to Card</button>
                         </div>
                     </div>

@@ -8,13 +8,16 @@ const Banner = () => {
                     description={"Explore the latest gadgets that will take your experience next level.From smart devices to the coolest accessories,we have it all!"}
                 ></Heading>
                 <div className="text-center">
-                    <button className="btn btn-actions bg-white text-blue-700 rounded-3xl px-8 mt-8">Shop Now</button>
-                </div>            </div >
+                    <a href="#explore-category">
+                        <button className="btn btn-actions bg-white text-blue-700 rounded-3xl px-8 mt-8">Shop Now</button>
+                    </a>
+                </div>
+            </div >
 
-            <div className="w-[60%] max-w-3xl mx-auto border rounded-2xl
+            <div className="lg:w-[60%] w-[70%] max-w-3xl mx-auto border rounded-2xl
              border-white bg-transparent z-10 -mt-36">
                 <div className="p-3">
-                    <img className="w-full h-[450px] rounded-2xl" src="/public/assets/banner.jpg" alt="" />
+                    <img className="w-full h-[250px] md:h-[350px] lg:h-[450px] rounded-2xl" src="/public/assets/banner.jpg" alt="" />
 
                 </div>
             </div>

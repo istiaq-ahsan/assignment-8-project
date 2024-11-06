@@ -2,12 +2,17 @@ import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import Heading from "../StaticPages/heading";
 import { addToCart, addToWish } from "../Utlilities";
+import { toast } from 'react-toastify';
+import ListedWishes from "../OtherPages/ListedWishes";
+
 
 const GadgetDetails = () => {
     const allGadgetData = useLoaderData()
     const { id } = useParams()
 
     const [device, setDevice] = useState({})
+    const [isDisabled, setIsDisabled] = useState(false);
+    const [cartStatus, setCartStatus] = useState(false);
 
     useEffect(() => {
         const singleData = allGadgetData.find(device => device.product_id == id)
@@ -15,17 +20,28 @@ const GadgetDetails = () => {
     }, [allGadgetData, id])
 
     const handleAddToCart = (id) => {
-        addToCart(id);
+        if (!cartStatus) {
+            toast.success("Item added to Cart");
+            addToCart(id);
+            setCartStatus(true);
+        }
+        else {
+            toast.error("Item is already in the cart!");
+        }
 
     }
 
     const handleAddToWish = (id) => {
-        addToWish(id);
-
+        if (!isDisabled) {
+            toast.success("Item added to WishList");
+            addToWish(id);
+            setIsDisabled(true);
+        }
     }
 
-
-
+    const handleEnable = () => {
+        setIsDisabled(false);
+    }
     return (
         <div className="">
             <div className="bg-blue-600 h-[400px]">
@@ -78,11 +94,12 @@ const GadgetDetails = () => {
                     </div>
                     <div className="flex gap-3 mt-3">
                         <button onClick={() => handleAddToCart(device.product_id)} className="btn rounded-3xl btn-primary">Add to Cart <i className="fa-solid fa-cart-shopping"></i></button>
-                        <button onClick={() => handleAddToWish(device.product_id)} className="btn btn-active rounded-full border-b"><i className="fa-regular fa-heart"></i></button>
+                        <button onClick={() => handleAddToWish(device.product_id)} disabled={isDisabled} className="btn btn-active rounded-full border-b"><i className="fa-regular fa-heart"></i></button>
 
                     </div>
                 </div>
             </div>
+
         </div>
     );
 };

@@ -13,6 +13,9 @@ import Dashboard from './components/OtherPages/Dashboard';
 import GadgetCards from './components/Explore/GadgetCards';
 import GadgetDetails from './components/Explore/gadgetDetails';
 import ListedProduct from './components/OtherPages/ListedProduct';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 const router = createBrowserRouter([
@@ -64,5 +67,18 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
+    <ToastContainer
+      position="top-center"
+      autoClose={3000}
+      hideProgressBar={false}
+      newestOnTop={false}
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
+      theme="light"
+      transition:Bounce
+    />
   </StrictMode>,
 )

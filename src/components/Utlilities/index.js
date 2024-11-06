@@ -54,7 +54,6 @@ const addToWish = (id) => {
         localStorage.setItem('add-wish', storedWishSTr);
     }
 
-    l
 }
 
 

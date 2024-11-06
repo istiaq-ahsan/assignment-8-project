@@ -52,7 +52,15 @@ const Dashboard = () => {
         }
     }
 
+    const showModal = () => {
+        if (total > 0) {
+            document.getElementById('my_modal_1').showModal();
+        }
+        else {
+            document.getElementById('my_modal_2').showModal();
 
+        }
+    }
 
 
     useEffect(() => {
@@ -87,31 +95,54 @@ const Dashboard = () => {
             <div>
                 {view === "cart" && (
                     <div className="mt-8">
-                        <div className="container mx-auto my-8 flex justify-between items-center">
+                        <div className="w-[90%] mx-auto my-8 flex justify-between items-center">
                             <h1 className="text-2xl font-bold">Cart</h1>
-                            <div className="flex items-center gap-3 font-bold">
-                                <h2>Total cost: {total}</h2>
-                                <button onClick={() => handleSort("id")} className="btn btn-outline btn-primary">Sort By Price <i class="fa-solid fa-sliders rotate-90"></i></button>
+                            <div className="grid md:grid-cols-3 grid-cols-1 items-center gap-3 font-bold">
+                                <div>
+                                    <h2 className="font-bold text-center text-2xl">Total cost: {total}</h2>
+
+                                </div>
+                                <button onClick={() => handleSort("id")} className="btn btn-outline rounded-full btn-primary">Sort By Price <i class="fa-solid fa-sliders rotate-90"></i></button>
 
 
                                 {/* Open the modal using document.getElementById('ID').showModal() method */}
-                                <button className="btn btn-secondary" onClick={() => document.getElementById('my_modal_1').showModal()}>Purchase</button>
-                                <dialog id="my_modal_1" className="modal">
-                                    <div className="modal-box text-center space-y-3">
-                                        <div className="flex justify-center">
-                                            <img className="h-[100px] w-[100px]" src="https://img.icons8.com/?size=100&id=102561&format=png&color=000000" alt="" />
-                                        </div>
-                                        <h3 className="font-bold text-xl">Payment Successfully</h3>
-                                        <p className="text-base">Thanks to purchasing</p>
-                                        <p className="text-lg">Total : {total} </p>
-                                        <div className="">
-                                            <form method="dialog">
+                                <button className="btn btn-secondary rounded-full" onClick={showModal}>Purchase</button>
+                                {total > 0 && (
+                                    <dialog id="my_modal_1" className="modal">
+                                        <div className="modal-box text-center space-y-3">
+                                            <div className="flex justify-center">
+                                                <img className="h-[100px] w-[100px]" src="https://img.icons8.com/?size=100&id=102561&format=png&color=000000" alt="" />
+                                            </div>
+                                            <h3 className="font-bold text-xl">Payment Successfully</h3>
+                                            <p className="text-base">Thanks to purchasing</p>
+                                            <p className="text-lg">Total : {total} </p>
+                                            <div className="">
+                                                <form method="dialog">
 
-                                                <button className="btn btn-active w-full rounded-full">Close</button>
-                                            </form>
+                                                    <button className="btn btn-active w-full rounded-full">Close</button>
+                                                </form>
+                                            </div>
                                         </div>
-                                    </div>
-                                </dialog>
+                                    </dialog>
+                                )}
+                                {total <= 0 && (
+                                    <dialog id="my_modal_2" className="modal">
+                                        <div className="modal-box text-center space-y-3">
+                                            <div className="flex justify-center">
+                                                <img className="h-[100px] w-[100px]" src="https://img.icons8.com/?size=100&id=OR24mwwtk9Rb&format=png&color=000000" alt="" />
+                                            </div>
+                                            <h3 className="font-bold text-xl">Buy Something</h3>
+                                            <p className="text-base">Please add items to your cart before proceeding to purchase.</p>
+                                            <p className="text-lg">Total : {total} </p>
+                                            <div className="">
+                                                <form method="dialog">
+
+                                                    <button className="btn btn-active w-full rounded-full">Close</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </dialog>
+                                )}
 
 
                             </div>
@@ -129,7 +160,7 @@ const Dashboard = () => {
                 {
                     view === "wishlist" && (
                         <div className="mt-8">
-                            <div className="container mx-auto my-10">
+                            <div className="w-[90%] mx-auto my-10">
                                 <h1 className="text-2xl font-bold">WishList</h1>
                             </div>
                             {

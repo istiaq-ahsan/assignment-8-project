@@ -4,9 +4,9 @@ const Card = ({ device }) => {
     const { product_id, product_image, product_title, price } = device
     console.log(device);
     return (
-        <div className="card bg-base-100 shadow-xl">
+        <div className="card bg-base-100 shadow-xl border border-gray-200">
             <figure>
-                <img className="w-full h-[300px] p-3"
+                <img className="w-full h-[200px] md:h-[250px] lg:h-[300px] p-3"
                     src={product_image}
                     alt="Shoes" />
             </figure>
