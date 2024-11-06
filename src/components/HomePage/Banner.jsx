@@ -17,7 +17,7 @@ const Banner = () => {
             <div className="lg:w-[60%] w-[70%] max-w-3xl mx-auto border rounded-2xl
              border-white bg-transparent z-10 -mt-36">
                 <div className="p-3">
-                    <img className="w-full h-[250px] md:h-[350px] lg:h-[450px] rounded-2xl" src="/public/assets/banner.jpg" alt="" />
+                    <img className="w-full h-[250px] md:h-[350px] lg:h-[450px] rounded-2xl" src="https://i.ibb.co.com/WfCV6pS/banner.jpg" alt="" />
 
                 </div>
             </div>

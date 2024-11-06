@@ -15,6 +15,8 @@ import GadgetDetails from './components/Explore/gadgetDetails';
 import ListedProduct from './components/OtherPages/ListedProduct';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Faq from './components/OtherPages/Faq';
+import Error from './components/OtherPages/Error';
 
 
 
@@ -22,6 +24,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement: <Error></Error>,
     children: [
       {
         path: "/",
@@ -52,13 +55,17 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard></Dashboard>,
-        loader: () => fetch('/public/gadgets.json'),
+        loader: () => fetch('/gadgets.json'),
         children: [
           {
             path: 'listedProduct',
             element: <ListedProduct></ListedProduct>
           }
         ]
+      },
+      {
+        path: "/faq",
+        element: <Faq></Faq>
       }
     ]
   },
